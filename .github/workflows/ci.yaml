@@ -1,4 +1,4 @@
-name : Script de prueba
+name : Script de Prueba
 on:[push]
 
 jobs:
@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Primer paso
-      run: echo "hola clase"
+        run: echo "hola clase"
