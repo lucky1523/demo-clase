@@ -3,8 +3,11 @@ on: [push]
 
 jobs:
   primera:
+    - uses: actions/checkout@v1
     name: Primera tarea
     runs-on: ubuntu-latest
     steps: 
       - name: Primer paso
         run: echo "hola clase"
+      - name: Listado de archivos
+        run: ls
