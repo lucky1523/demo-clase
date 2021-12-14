@@ -1,0 +1,10 @@
+name : Script de prueba
+on:[push]
+
+jobs:
+  primera:
+    name: Primera tarea
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Primer paso
+      run: echo "hola clase"
