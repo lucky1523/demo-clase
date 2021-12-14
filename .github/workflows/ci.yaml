@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   primera:
-    uses: actions/checkout@v1
+    uses: actions/checkout@v2
     name: Primera tarea
     runs-on: ubuntu-latest
     steps: 
